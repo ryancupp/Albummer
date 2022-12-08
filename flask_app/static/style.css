@@ -1,0 +1,97 @@
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+}
+
+body {
+    background-color: lavender;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-bar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#favs {
+    font-style: italic;
+
+}
+
+#tableHead {
+    border: 1px solid white;
+}
+
+
+th {
+    font-weight: 200;
+    font-size: 30px;
+    padding: 15px;
+}
+
+td {
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}
+
+#links {
+    color: black;
+    padding: 0px;
+
+}
+
+#link-div{
+    text-align: center;
+}
+
+/* form */
+
+#new-form{
+    border: 1px solid black;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#submit-button{
+    text-align: center;
+    padding: 10px;
+}
+
+#form-elements{
+    padding: 10px;
+}
+
+#input-field{
+    background-color: lavender;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submit-field{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+/* show-one */
+
+#big-title{
+    font-style: italic;
+    font-size: 150px;
+}
